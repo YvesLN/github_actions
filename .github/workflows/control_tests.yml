@@ -20,7 +20,7 @@ jobs:
 
       - name: Run tests
         run: |
-          python3 -m pytest file_test.py
+          python3 -m pytest /home/runner/work/github_actions/file_test.py
 
       - name: Run flake8
         uses: py-actions/flake8@v2
